@@ -1,0 +1,18 @@
+{
+  "rank": "2.4",
+  "title": "Add RuboCop",
+  "context": "There is no Ruby linting.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add RuboCop and a baseline.",
+    "expected_outcome": "Style errors fail CI.",
+    "acceptance_criteria": [
+      "RuboCop runs",
+      "Baseline is documented"
+    ]
+  },
+  "attempts": []
+}

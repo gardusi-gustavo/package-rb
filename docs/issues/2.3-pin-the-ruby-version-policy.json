@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Pin the Ruby version policy",
+  "context": "The Ruby version is implicit.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document supported Ruby versions.",
+    "expected_outcome": "Consumers know the support window.",
+    "acceptance_criteria": [
+      "Policy exists",
+      "CI uses the supported version"
+    ]
+  },
+  "attempts": []
+}

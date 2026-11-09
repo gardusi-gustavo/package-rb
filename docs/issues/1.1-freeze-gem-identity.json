@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze gem identity",
+  "context": "The gem name and require path are the public contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review the gemspec and document the name.",
+    "expected_outcome": "Consumers use one stable gem.",
+    "acceptance_criteria": [
+      "Name is documented",
+      "rake test passes"
+    ]
+  },
+  "attempts": []
+}
